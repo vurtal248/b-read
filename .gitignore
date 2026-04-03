@@ -1,0 +1,36 @@
+# ── Build outputs ───────────────────────────────────────────────
+dist/
+build/
+*.exe
+*.pkg
+*.app
+
+# ── PyInstaller ──────────────────────────────────────────────────
+*.spec.bak
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ── Virtual environments ─────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── OS noise ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor artifacts ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
